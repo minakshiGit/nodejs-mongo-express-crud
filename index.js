@@ -59,7 +59,6 @@ app.get('/users', async(req, res) => {
     return res.send(html)
 })
 //Rest API
-
 app.get("/api/user-list", async(req, res) => {
     res.setHeader("x-myName","Minakshi Dev")
     const allDBUser =await User.find({})
