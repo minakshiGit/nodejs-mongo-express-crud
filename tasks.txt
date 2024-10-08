@@ -1,0 +1,15 @@
+REST API Json 
+-- Hybird Sever - for support browser and mobile or other app
+
+GET /users- HTML Document Render
+GET/api/users - List of all users as a Json
+
+GET /users/1
+//Dynamic path parameter : GET /users/:id
+
+POST /users - create new users
+PATCH - /users/1 - edit the users
+Delete - Delete the user of id -1
+
+
+-- grouping of routes

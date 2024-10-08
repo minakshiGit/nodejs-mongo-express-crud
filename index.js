@@ -6,7 +6,8 @@ const users = require('./users.json');
 const app = express();
 const PORT = 4000;
 const dbUrl = "mongodb url";
-//Mongoose connection 
+
+// connection 
 mongoose.connect(dbUrl)
     .then(() => console.log("Mongo DB Connected"))
     .catch((error) => console.log("Mongo err", error))
