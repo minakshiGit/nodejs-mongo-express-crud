@@ -1,0 +1,38 @@
+--------Middleware-----
+
+
+Express Middleware
+middleware function - run in every req,res cycle
+one code  -> multiple middleware
+client ->req ->get(/users) ->express server  
+client ->Middleware -> function ->app.get
+req ->comes first in middleware(if everything is ok then forward to next )
+client  ->md1 ->md2 ->md3 ->function
+client ->md1 <- 
+---------------HTTP Headers-------------------
+HTTP Headers
+- extra information of about request and response cycle
+request headers
+response headers
+
+    console.log(req.headers)
+    //Always add X to custom header like x-myName
+    res.setHeader("x-myName","Minakshi Dev")
+
+https://developer.mozilla.org/en-US/docs/Web/API/Headers
+
+--------------------HTTP Response Status Code---------------------
+Informational responses (100 – 199)
+Successful responses (200 – 299)
+Redirection messages (300 – 399)
+Client error responses (400 – 499)
+Server error responses (500 – 599)
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+--------------MongoDB--------------------------------
+MongoDB
+
+Collections - users
+document1 
+document2
